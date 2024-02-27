@@ -1,0 +1,45 @@
+.cards {
+    display: flex; 
+    gap: 30px;
+    margin-left: 150px;
+    min-width: none;
+}
+
+.img_pizza {
+    width: 250px;
+    height: auto;
+}
+
+.img_forno {
+    display:flex;
+    width: 600px;
+    height: 500px;
+}
+
+.section_pet{
+    grid-column: 2/7;
+    grid-row-start: 3;
+    font-size: 45px;
+    border-radius: 8px;
+    text-align:left;
+    padding-left: 15%;
+    font-family: var(--font-merienda);
+    margin-bottom: 15px;
+}
+
+@media (max-width: 600px){
+    .cards {
+        flex-direction: column;
+        margin-left: 10px;
+        width: 520px;
+
+    }
+    .pet{
+        flex-direction: column;
+        margin-left: 10px;
+        width: 100%;
+        flex-basis: 80%;
+    }
+}
+
+

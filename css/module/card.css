@@ -1,0 +1,92 @@
+.card {
+    max-width: 100%;
+    min-width: 100px;
+    width: 900px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
+
+.card_history {
+    width: 900px;
+    height: 750px;
+    display: flex;
+    border-radius:8px;
+}
+
+.card_preparo{
+    background-color: #e0fcc2;
+}
+
+.card_marrom {
+    background-color: #e0fcc2;
+}
+
+.card_rose {
+    background-color: #FF5867;
+}
+
+.card_mate {
+    background-color: #FFBD91;
+}
+
+.text-variable {
+    font-size: 55px;
+    font-family: var(--font-noto-sans);
+    font-weight: 900;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 50px;
+    font-size: calc(25px + 2vw);
+    text-align: center;
+}
+
+.text-value{
+    font-size: 30px;
+    font-family: var(--font-noto-sans);
+    font-weight: 900; 
+    margin-left: 350px;
+    margin-top: 120px;
+    padding-right: 5%;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.img_pet{
+    max-width: 100%;
+    min-width: 100px;
+    display: flex;
+    flex-direction:row;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    width: 750px;
+    margin: 10px;
+    text-align: center;
+}
+
+.pet{
+    
+    display: flex;
+    flex-direction:row;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin-left: 185px;
+    text-align: center;
+
+}
+
+@media (max-width: 600px){
+    .text-value {
+        font-size: 15px;
+        flex-basis: 60%;
+        padding-left: 15px;
+    }
+    .text-variable {
+        font-size: 30px;
+    }
+}
